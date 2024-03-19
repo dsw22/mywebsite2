@@ -2,9 +2,16 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Derek S. Wilkinson, Ph.D.",
+    "title": "First page",
     "section": "",
-    "text": "Introduction\nHi there! My name is Derek and this is my webpage. If you ever need help, just contact me.\n\n\nAnalysis\nHere, I’m going to show you a plot of miles per gallon (mpg) by vehicle weight in tons (wt)"
+    "text": "Hi there! My name is Derek and this is my webpage. If you ever need help, just contact me.\n\n\nHere, I’m going to show you a plot of miles per gallon (mpg) by vehicle weight in tons (wt)\n\n\n\n\n\n\nFor more information, check out my about page"
+  },
+  {
+    "objectID": "index.html#the-profession",
+    "href": "index.html#the-profession",
+    "title": "First page",
+    "section": "",
+    "text": "Here, I’m going to show you a plot of miles per gallon (mpg) by vehicle weight in tons (wt)\n\n\n\n\n\n\nFor more information, check out my about page"
   },
   {
     "objectID": "about.html",
@@ -12,5 +19,12 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Here is my blog. Here is a link to an analysis:\ns"
   }
 ]

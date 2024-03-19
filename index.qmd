@@ -1,24 +1,35 @@
 ---
-title: "Derek S. Wilkinson, Ph.D."
+title: "First page"
 execute:
   echo: false
 ---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(warning = FALSE, message = FALSE) 
+```
 
 # Introduction
 
 Hi there! My name is Derek and this is my webpage. If you ever need help, just [contact me](mailto:derek.wilkinson@protonmail.com "derek.wilkinson@protonmail.com").
 
-# Analysis
+## the profession
 
 Here, I'm going to show you a plot of miles per gallon (mpg) by vehicle weight in tons (wt)
 
-```{r, fig1, echo=FALSE, results='asis', message=FALSE}
+```{r, fig1}
 library(plotly)
+library(ggplot2)
+library(hrbrthemes)
 
-plot_ly(
-  data = mtcars, 
-  x = ~wt, 
-  y = ~mpg
-)
+p <- mtcars |> 
+  ggplot(aes(x = wt, y = mpg)) +
+  geom_point(size = 5, shape = 21, color = "white", fill = "steelblue", alpha = 0.5) +
+  theme_ipsum() +
+  labs(y = "Fuel economy (mpg)", x = "Vehicle weight (tons)", 
+       title = "As vehicle weight increases, fuel economy decreases")
+
+ggplotly(p)
 
 ```
+
+For more information, check out my [about](about.qmd) page
