@@ -12,7 +12,7 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 
 Hi there! My name is Derek and this is my webpage. If you ever need help, just [contact me](mailto:derek.wilkinson@protonmail.com "derek.wilkinson@protonmail.com").
 
-## the profession
+# {{< fa chess-pawn >}} Other Stuff
 
 Here, I'm going to show you a plot of miles per gallon (mpg) by vehicle weight in tons (wt)
 
