@@ -2,8 +2,15 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "mywebsite2",
+    "title": "Derek S. Wilkinson, Ph.D.",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2\n\n\nThis is additional content"
+    "text": "Introduction\nHi there! My name is Derek and this is my webpage. If you ever need help, just contact me.\n\n\nAnalysis\nHere, I’m going to show you a plot of miles per gallon (mpg) by vehicle weight in tons (wt)"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
   }
 ]

@@ -1,13 +1,24 @@
 ---
-title: "mywebsite2"
+title: "Derek S. Wilkinson, Ph.D."
+execute:
+  echo: false
 ---
 
-This is a Quarto website.
+# Introduction
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Hi there! My name is Derek and this is my webpage. If you ever need help, just [contact me](mailto:derek.wilkinson@protonmail.com "derek.wilkinson@protonmail.com").
 
-```{r}
-1 + 1
+# Analysis
+
+Here, I'm going to show you a plot of miles per gallon (mpg) by vehicle weight in tons (wt)
+
+```{r, fig1, echo=FALSE, results='asis', message=FALSE}
+library(plotly)
+
+plot_ly(
+  data = mtcars, 
+  x = ~wt, 
+  y = ~mpg
+)
+
 ```
-
-This is additional content
