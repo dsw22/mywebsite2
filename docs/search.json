@@ -4,14 +4,7 @@
     "href": "index.html",
     "title": "First page",
     "section": "",
-    "text": "Introduction\nHi there! My name is Derek and this is my webpage. If you ever need help, just contact me.\n\n\n Other Stuff\nHere, I’m going to show you a plot of miles per gallon (mpg) by vehicle weight in tons (wt)\n\n\n\n\n\n\nFor more information, check out my about page"
-  },
-  {
-    "objectID": "index.html#the-profession",
-    "href": "index.html#the-profession",
-    "title": "First page",
-    "section": "",
-    "text": "Here, I’m going to show you a plot of miles per gallon (mpg) by vehicle weight in tons (wt)\n\n\n\n\n\n\nFor more information, check out my about page"
+    "text": "Introduction\nHi there! My name is Wilfred and this is my webpage. If you ever need help.\n\n\n Other Stuff\nHere, I’m going to show you a plot of miles per gallon (mpg) by vehicle weight in tons (wt)\n\n\n\n\n\n\nFor more information, check out my about page"
   },
   {
     "objectID": "about.html",
@@ -25,6 +18,6 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Here is my blog. Here is a link to an analysis:\ns"
+    "text": "Confidence intervals stand as the bedrock of statistical inference, providing a robust measure of uncertainty and precision in our estimations. Their paramount importance in both research and decision-making processes cannot be understated.\n\n\n\n\n\nIn the labyrinth of data analysis, confidence intervals offer a beacon of clarity, offering a range within which we can reasonably expect the true parameter to lie. This not only bolsters the credibility of our findings but also acknowledges the inherent variability present in real-world phenomena.\nFurthermore, confidence intervals facilitate effective communication of research outcomes. They encapsulate the variability of our estimates, allowing us to convey the strength of our findings with a nuanced perspective. The ability to convey the certainty and uncertainty inherent in our analyses is indispensable.\nMoreover, confidence intervals serve as the cornerstone of hypothesis testing, guiding researchers in discerning the significance of their results. By juxtaposing our estimates against predefined thresholds, confidence intervals empower us to make informed decisions and draw meaningful conclusions from our data.\nIn essence, confidence intervals epitomize the essence of statistical inference, illuminating the path towards rigorous analysis and sound decision-making in the pursuit of knowledge."
   }
 ]

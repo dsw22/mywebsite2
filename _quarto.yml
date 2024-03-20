@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Derek S. Wilkinson, Ph.D."
+  title: "Chicken Sausage"
   navbar:
     left:
       - href: index.qmd

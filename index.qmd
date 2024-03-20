@@ -10,7 +10,7 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 
 # Introduction
 
-Hi there! My name is Derek and this is my webpage. If you ever need help, just [contact me](mailto:derek.wilkinson@protonmail.com "derek.wilkinson@protonmail.com").
+Hi there! My name is Wilfred and this is my webpage. If you ever need help.
 
 # {{< fa chess-pawn >}} Other Stuff
 

@@ -2,6 +2,35 @@
 title: "Blog"
 ---
 
-Here is my blog. Here is a link to an analysis:
+Confidence intervals stand as the bedrock of statistical inference, providing a robust measure of uncertainty and precision in our estimations. Their paramount importance in both research and decision-making processes cannot be understated.
 
-s
+```{r}
+#| echo: false
+#| message: false
+  
+library(tidyverse) 
+library(broom)
+
+df <- mtcars |> 
+  mutate_all(~as.numeric(scale(.x)))
+
+fit <- lm(mpg ~ wt + am + disp, data = df)
+tidy_fit <- broom::tidy(fit, conf.int = TRUE)
+tidy_fit |> 
+  filter(term != "(Intercept)") |> 
+  ggplot(aes(x = estimate, y = reorder(term, estimate))) +
+  geom_linerange(aes(xmin = conf.low, xmax = conf.high)) +
+  geom_point() +
+  theme_minimal() +
+  labs(y = NULL) +
+  geom_vline(aes(xintercept = 1), linetype = "dashed")
+
+```
+
+In the labyrinth of data analysis, confidence intervals offer a beacon of clarity, offering a range within which we can reasonably expect the true parameter to lie. This not only bolsters the credibility of our findings but also acknowledges the inherent variability present in real-world phenomena.
+
+Furthermore, confidence intervals facilitate effective communication of research outcomes. They encapsulate the variability of our estimates, allowing us to convey the strength of our findings with a nuanced perspective. The ability to convey the certainty and uncertainty inherent in our analyses is indispensable.
+
+Moreover, confidence intervals serve as the cornerstone of hypothesis testing, guiding researchers in discerning the significance of their results. By juxtaposing our estimates against predefined thresholds, confidence intervals empower us to make informed decisions and draw meaningful conclusions from our data.
+
+In essence, confidence intervals epitomize the essence of statistical inference, illuminating the path towards rigorous analysis and sound decision-making in the pursuit of knowledge.
